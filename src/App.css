@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 12px;
+}
+
+@media screen and(min-width: 769px) {
+  body {
+    font-size: 16px;
+  }
+}
+
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  display: block;
+  color: inherit;
+}
+img {
+  max-width: 100%;
+  object-fit: cover;
+}
+button {
+  display: block;
+  padding: 10px 20px;
+  border: none;
+  background: black;
+  color: coral;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+button:hover {
+  background-color: coral;
+  color: black;
+  font-weight: bold;
+  transform: background-color 0.5s easy-in-out;
+}

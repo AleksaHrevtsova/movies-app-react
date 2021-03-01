@@ -1,0 +1,33 @@
+.trendsList {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+.trendsList li {
+  border: 1px solid black;
+  margin: 10px;
+}
+.trendsList a {
+  font-size: 1.5rem;
+  padding: 10px;
+}
+.trendsList li:hover {
+  border-color: coral;
+  transition: border-color 0.4s ease;
+}
+.trendsList li:hover a {
+  color: coral;
+  transition: color 0.6s ease;
+}
+.trendsTitle {
+  font-size: 2rem;
+  margin-top: 50px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.trendsTitle:hover {
+  color: coral;
+  transition: color 0.5s ease-in-out;
+}

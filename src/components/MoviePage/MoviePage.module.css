@@ -1,0 +1,87 @@
+.backBtn {
+  padding: 10px 20px;
+  margin: 30px auto;
+}
+.cardWrapper {
+  width: 80%;
+  padding: 50px;
+  margin: 0 auto;
+  box-shadow: 0 0 20px black;
+}
+.movieCard {
+  display: flex;
+  flex-flow: row wrap;
+}
+.movieCard > a {
+  margin: 0 auto;
+}
+.imgWrapper {
+  width: calc(100% / 2 - 20px);
+  overflow: hidden;
+  margin-right: 20px;
+}
+.movieInfo {
+  width: calc(100% / 2 - 20px);
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.additional {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+.additional li:not(:last-child) {
+  margin-right: 20px;
+}
+.additional li a {
+  border: 1px solid black;
+  padding: 10px 20px;
+}
+.additional li a:hover,
+.additional li a:focus {
+  color: coral;
+  font-weight: bold;
+  background-color: black;
+  transition: color 0.3s ease-in-out;
+}
+.movieTitleLink {
+  font-size: 1.5rem;
+  margin-top: 50px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.movieTitleLink:hover {
+  color: coral;
+  transition: color 0.5s ease-in-out;
+  text-decoration: underline;
+}
+.genres {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  margin: 20px auto;
+}
+.genres li {
+  font-size: 1.2rem;
+}
+.genres li:not(:last-child) {
+  margin-right: 5px;
+}
+.overview {
+  display: flex;
+
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+
+  font-size: 1.1rem;
+  line-height: 1.45em;
+  font-style: italic;
+
+  margin-bottom: 30px;
+}
